@@ -1,0 +1,93 @@
+/* Basic Resets */
+body{
+    /* margin: 0px; */
+     /* default margin of body is 8 */ 
+     margin: 0rem 2rem;
+     /* for margin */
+}
+header>h1{
+    margin-left: 2rem;
+}
+nav{
+    margin-right: 1rem;
+}
+h1{
+    font-family: 'Grape Nuts', cursive;
+    box-sizing: border-box;
+    font-size: 3rem;
+}
+a{
+    text-decoration: none; /* remove underline in anchor */
+    font-size: 1.2rem;
+}
+li{
+    list-style: none;
+}
+/* .main-img{
+    height:40vh;
+    width:80vw; */
+    /* trick */
+    /*object-fit: contain;
+    } */
+footer{
+    height: 2rem;
+    width:100vw;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    /*text-align: center;   horizontal center */
+    font-weight: 700; /* increase boldness */
+    text-transform: uppercase; /* to uppercase */
+    
+    /* use of flex box */
+    /* used to perfectly center a div */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* vertically align text */
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: red;
+}
+
+/* FLEXBOX */ 
+.parent{
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.child{
+    width: 30%;
+
+}
+header{
+    display: flex;
+    /* manages space horizontally */
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    width: 20rem;
+    border: 1px solid red; 
+    justify-content: space-evenly;
+}
+ul>li{
+    width: 30%;
+    font-size: 1.5rem;
+}
+/* FOR RESPONSIVE IMAGE */
+.main-image{
+    width: 100vw;
+    height: auto;
+}
